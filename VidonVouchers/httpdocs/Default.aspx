@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">   
     <link href="css/Firma.css"rel="stylesheet" />
-
-    <title></title>
+    <title>VVoucher</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -22,11 +21,11 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="default.aspx" class="nav-link px-2 text-white">Inicio</a></li>
+          <li><a href="default.aspx" class="nav-link px-2 text-warning">Inicio</a></li>
           <li><a href="vouchers.aspx" class="nav-link px-2 text-white">Crear</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Validar</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Escanear</a></li>
-          <li><a href="info.aspx" class="nav-link px-2 text-warning">Info.</a></li>
+          <li><a href="info.aspx" class="nav-link px-2 text-white">Info.</a></li>
         </ul>
 
         <div class="text-end">
@@ -37,31 +36,45 @@
     </div>
   </header>
 
-        <div class="padre" align="center">
-            <div class="hijo">
-        <div align="center">
-            <p>&nbsp;</p>
-            <p>VVouchers 2022
-            Version Web 0.3
-            © 2022 Nacho Caceres.
-            Todos los derechos reservados.</p>
-            <br />
-             <p>Este sistema es realizado exclusivamente
-                 para la empresa Vidon bar.</p>
-            <br />
-             <p>Advertencia: este programa esta protegido por leyes de derechos de autor y otros tratados internacionales. 
-            La reproduccion o distribucion ilicita de este programa o de cualquier parte del mismo esta penada por
-            la ley con severas sanciones civiles y penales y sera objeto de todas las acciones judiciales que 
-            correspondan.</p>
-        </div>
-       </div>
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Inicio&nbsp;</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <h3 class="fs-2">Crear Vouchers</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="vouchers.aspx" class="btn btn-warning">
+            Crear
+          </a>
       </div>
+      <div class="feature col">
+        <h3 class="fs-2">Validar Vouchers</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="btn btn-warning">
+            Validar  
+        </a>
+      </div>
+      <div class="feature col">
+        <h3 class="fs-2">Escanear Vouchers</h3>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="#" class="btn btn-warning">
+            Escanear
+          </a>
+      </div>
+    </div>
+  </div>
 
   <div id="Final">
     <br /><hr align="center" id="re" /><br />
-    <a href="https://www.instagram.com/naachocaceres/"> <img src="Imagenes/Neptune.png" /> </a>
+    <a href="https://www.instagram.com/naachocaceres/"> <img src="Imagenes/Neptune.png"/> </a>
 	<p>Desarollado por <b>Nacho Caceres</b></p>
-	</div>    
+	</div>
+      
+  
+               
+
+
+
+
 
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

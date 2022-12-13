@@ -42,7 +42,7 @@
         <div align="center">
             <p>&nbsp;</p>
             <p>VVouchers 2022
-            Version Web 0.3
+            Version Web 0.2
             © 2022 Nacho Caceres.
             Todos los derechos reservados.</p>
             <br />

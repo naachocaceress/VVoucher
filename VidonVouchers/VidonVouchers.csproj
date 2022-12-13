@@ -84,6 +84,7 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap.rtl.css" />
     <Content Include="css\bootstrap.rtl.min.css" />
+    <Content Include="css\estilos.css" />
     <Content Include="css\Firma.css" />
     <Content Include="default.aspx" />
     <Content Include="Imagenes\Barest %28NUEVO COLOR%29.png" />
@@ -94,6 +95,7 @@
     <Content Include="Imagenes\Tarjeta VUT VVOUCHER.png" />
     <Content Include="Imagenes\Vidon bar ORIGINAL.png" />
     <Content Include="info.aspx" />
+    <Content Include="js\app.js" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.esm.js" />

@@ -4,18 +4,6 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-
-    <meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="css/estilos.css" />
-		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-		<script defer src="js/app.js"></script>
-
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">   
@@ -23,10 +11,8 @@
 
     <title>Crear VUT</title>
 </head>
-
-
 <body>
-    <form id="formulario" runat="server" class="formulario">
+    <form id="form1" runat="server">
         
   <header class="p-3" style="background-color:#0C8444">
     <div class="container">
@@ -57,7 +43,7 @@
         <div class="container px-4 py-5" id="custom-cards">
 
             <h2 class="pb-2 border-bottom">Crear vale un trago</h2>
-         
+
             <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
             
         
@@ -72,29 +58,20 @@
         <ul class="list-group mb-3">
           <li class="list-group-item d-flex justify-content-between lh-sm" style="width:285px; height:430px;">
           <!-- <div style="background: url(/Imagenes/Tarjeta VUT VVOUCHER.png); background-size:cover; background-position:center; width:250px; height:395px;">-->
-               
-              <div class="total"> 
-                  <div class="vut">
-                <img src="/Imagenes/Tarjeta VUT VVOUCHER.png" width="250" />
-                   </div>
-                <div id="contenedorQR" class="contenedorQR"></div>
-               </div>
-
+            <img src="/Imagenes/Tarjeta VUT VVOUCHER.png" width="250" />
+           <!-- </div> -->
           </li>
         </ul>
       </div>
 
       <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">&nbsp;</h4>
-          <h4 class="mb-3">Agregar datos</h4>
+          <h4 class="mb-3">Billing address</h4>
         <form class="needs-validation" novalidate="">
-
-            <div class="contenedor">
-
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">First name</label>
-              <input type="text" class="form-control" id="link" placeholder="" value="" required="">
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
               <div class="invalid-feedback">
                 Valid first name is required.
               </div>
@@ -102,7 +79,7 @@
 
             <div class="col-sm-6">
               <label for="lastName" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="">
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
               <div class="invalid-feedback">
                 Valid last name is required.
               </div>
@@ -112,7 +89,7 @@
               <label for="username" class="form-label">Username</label>
               <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username">
+                <input type="text" class="form-control" id="username" placeholder="Username" required="">
               <div class="invalid-feedback">
                   Your username is required.
                 </div>
@@ -129,20 +106,15 @@
 
           <button class="w-100 btn btn-primary btn-lg" type="submit">Generar VUT</button>
               &nbsp;
-
-		</div>
-
           <a href="/Imagenes/Tarjeta VUT VVOUCHER.png" download="Vale un trago"><button class="w-100 btn btn-primary btn-lg" type="button" hr>Descargar VUT</button> </a>
 
-
-
-
-                <button id="crearimagen" class="form-control"></button>Crear Imagen <!-- El div id="img-out" sera el contenedor en donde visualizaremos la imagen exportada -->
-<div id="img-out" align="center"></div>
         </form>
       </div>
     </div>
-   </div> 
+
+
+        </div>
+    
   </div>
 
 
@@ -159,6 +131,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-
 </body>
 </html>
